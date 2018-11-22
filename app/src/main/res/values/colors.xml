@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#33b5e5</color>
+    <color name="colorPrimaryDark">#33b5e5</color>
+    <color name="colorAccent">#33b5e5</color>
+    <color name="colorAccentDark">#9033b5e5</color>
+
+    <color name="coloryellow">#ef9600</color>
+    <color name="coloryellowDark">#ef9600</color>
+
+    <color name="MaterColor">#999</color>
+
+    <color name="white">#fff</color>
+
+    <color name="gray">#666</color>
+
+    <color name="ccc_gary">#cccccc</color>
+
+    <!-- 可点击背景 -->
+    <color name="e_gary">#e0e0e0</color>
+
+    <color name="bg">#70e0e0e0</color>
+
+    <color name="stand_bg">#fafafa</color>
+
+    <color name="hh_transparent">#44000000</color>
+
+    <color name="black">#000</color>
+    <color name="nablack">#d8000000</color>
+
+</resources>

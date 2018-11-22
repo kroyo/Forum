@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">乐享时空</string>
+
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+    <string name="search">搜索</string>
+
+    <string name="publish">发表</string>
+</resources>

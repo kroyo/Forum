@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_base"/>
+    
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="60dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_profile"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="分享时空   分享你的每时每刻"
+        android:textSize="16sp"/>
+    <View
+        android:layout_width="150dp"
+        android:layout_height="1dp"
+        android:background="@color/ccc_gary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="精彩时刻   与你共享"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="记录你的分分秒秒"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="乐享时空   期待你的加入与分享"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:gravity="bottom|center_horizontal"
+        android:text=" Copyright ©2016\n 九江学院Kroyoshi团队出品"
+        android:textSize="12sp"/>
+
+</LinearLayout>

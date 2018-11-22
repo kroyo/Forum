@@ -1,0 +1,55 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "com.kroyoshi.forum"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support:design:23.4.0'
+    compile 'com.android.support:support-v4:23.+'
+    compile 'com.android.support:cardview-v7:23.+'
+    compile 'com.android.support:recyclerview-v7:23.+'
+    compile 'com.android.support:palette-v7:23.+'
+
+    // LeanCloud 基础包
+    compile 'cn.leancloud.android:avoscloud-sdk:v3.+'
+
+    //一个Ripple动画包
+    compile 'com.balysv:material-ripple:1.0.2'
+    //圆形效果的ImageView
+    compile 'de.hdodenhof:circleimageview:2.0.0'
+    //谷歌推荐的图片加载库
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    //比例布局
+    compile 'com.marvinlabs:android-constrained-widgets:1.2.+@aar'
+    //依赖注入工具
+    compile 'com.jakewharton:butterknife:7.0.1'
+    //日志打印工具
+    compile 'com.orhanobut:logger:1.15'
+    //Toast样式
+    compile 'com.github.johnpersano:supertoasts:1.3.4@aar'
+    // loading animations
+    compile 'com.github.ybq:Android-SpinKit:1.0.4'
+
+    //一个强大并且灵活的RecyclerViewAdapter
+    compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:v1.8.5'
+    compile 'com.isseiaoki:simplecropview:1.0.13'
+
+}
